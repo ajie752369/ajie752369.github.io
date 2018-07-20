@@ -1,0 +1,84 @@
+html,body{
+		width: 100%;
+		height: 100%;
+	}
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	#album-top{
+		width: 4.5rem;
+		background: linear-gradient(to right,#3224ae,#c56cd7);
+		-webkit-background-clip: text;
+		color: transparent;
+		font-size: 0.32rem;
+		margin-left: 0.4rem;
+		margin-top: 0.24rem;
+	}
+	#goBack{
+		font-size: 0.45rem;
+	}
+	#album-name{
+		font-size: 0.4rem;
+		margin-left: 0.2rem;
+	}
+	#photo-num{
+		text-align: center; 
+		line-height: 0.6rem;
+		font-size: 0.35rem;
+		margin-left: 0.1rem;
+	}
+	#content{
+		width: 100%;
+		padding: 0.38rem 0.44rem 0 0.44rem;
+		display: flex; 
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+	.photo-album{
+		width: 30%;
+		height: 1.94rem;
+		margin-bottom: 0.52rem;
+	}
+	.photo-bg{
+		width: 100%;
+		height: 1.5rem;
+		border-radius: 0.16rem;
+		background-image: url("../imgs/item_bg.png") ;
+		background-size: 100% 100%;
+		display: flex;
+		flex-flow: column-reverse;
+	}
+	.download{
+		width: 0.4rem;
+		height: 0.4rem;
+		margin: auto 0.1rem 0.1rem auto;
+	}
+	.photo-name{
+		font-size: 0.28rem;
+		text-align: center;
+		margin-top:0.14rem;
+	}
+	#upload{
+		width: 0.82rem;
+		height: 0.82rem;
+		background: linear-gradient(to right,#e05f8d,#eea082);
+		font-size: 0.8rem;
+		color: white;
+		border-radius: 0.3rem;
+		text-align: center;
+		line-height: 0.82rem;
+		position: fixed;
+		bottom: 0.3rem;
+		left: 50%;
+		margin-left: -0.41rem;
+		box-shadow: 0 0.05rem 0.3rem 0.05rem  #dcacbd;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.acolor{
+		color: white;
+	}

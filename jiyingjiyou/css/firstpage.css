@@ -1,0 +1,163 @@
+html,body{
+		width: 100%;
+		height: 100%;
+	}
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	#top{
+		width: 100%;
+		background-color: white;
+	}
+	#logo{
+		margin-top: 0.36rem;
+		margin-left: 0.4rem;
+		width: 1.6rem;
+		font-size: 0.4rem;
+		background: linear-gradient(to right,#3224ae,#c56cd7);
+		-webkit-background-clip: text;
+		color: transparent;
+		font-weight: 600;
+	}
+	#search-box{
+		width: 6.7rem;
+		height: 0.7rem;
+		background-color: #ededee;
+		border-radius: 0.16rem;
+		margin: 0 auto;
+		margin-top: 0.44rem;
+		font-size: 0.28rem;
+		display: flex;
+		align-content: center;
+	}
+	.search-box-focus{
+    	border-color: #c56cd7;  
+    	box-shadow: 0 0 0.2rem #c56cd7;
+	}
+	#search-box img{
+		width: 0.3rem;
+		height: 0.3rem;
+		margin: 0.2rem auto auto 0.2rem;
+	}
+	#search-box input{
+		width: 5.8rem;
+		height: 0.5rem;
+		border: none;
+		background-color: #ededee;
+		margin: 0.08rem auto auto 0.04rem;
+		font-size: 0.28rem;
+	}
+	#search-box input:focus{
+		outline: none;
+	}
+	#content{
+		margin-top: 0.34rem;
+		display: flex;
+		flex-flow: column;
+	}
+	.year-photo-album-item{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+	.year-photo-album{
+		height: auto;
+		width: 6.7rem;
+		margin: 0 0 0.4rem 0.4rem ;
+	}
+	.menu{
+		width: 6.7rem;
+		display: flex;
+		justify-content: space-between;
+		/* 字间距 */
+		letter-spacing: 0.02rem;
+	}
+	.year{
+		font-size: 0.36rem;
+		background: linear-gradient(to right,#3224ae,#c56cd7);
+		-webkit-background-clip: text;
+		color: transparent;
+		text-transform: uppercase;
+		font-weight: 900;
+	}
+	.year span{
+		font-size: 0.2rem;
+		margin-top: 1rem;
+	}
+	.more{
+		font-size: 0.24rem;
+		text-align: right;
+		color: #c56cd7;
+		margin: auto 0.08rem 0.08rem auto; 
+	}
+	.photo-album{
+		width: 30%;
+		height: 1.94rem;
+		margin-top: 0.32rem;
+		margin-bottom: 0.2rem;
+	}
+	.photo-bg{
+		width: 100%;
+		height: 1.5rem;
+		border-radius: 0.16rem;
+		background-image: url("../imgs/item_bg.png") ;
+		background-size: 100% 100%;
+		display: flex;
+		flex-flow: column-reverse;
+	}
+	.photo-time{
+		width: 100%;
+		border-radius: 0 0 0.16rem 0.16rem;
+		background-color: blue;
+		font-size: 0.2rem;
+		color: white;
+		text-align: center;
+		line-height: 160%;
+		opacity: 0.8;
+		background: linear-gradient(to right,#3224ae,#c56cd7);
+	}
+	.photo-name{
+		width: 100%;
+		font-size: 0.28rem;
+		font-weight: 600;
+		text-align: center;
+		margin-top:0.16rem;
+	}
+	#bottom{
+		width: 100%;
+		height: 1.0rem;
+		position: fixed;
+		bottom: 0px;
+		border: 2px solid #f5f5f5;
+		font-size: 0.24rem;
+		background-color: white;
+		display: flex;
+	}
+	#personal-photo{
+		width: 1rem;
+		height: 0.7rem;
+		float: left;
+		margin: 0.18rem 0 0 2.1rem ;
+		color:#c56cd7 ;
+	}
+	#personal-photo img{
+		width: 0.36rem;
+		height: 0.36rem;
+		margin-left: 0.3rem;
+	}
+	#personal{
+		width: 1rem;
+		height: 0.7rem;
+		margin: 0.18rem 0 0 1.74rem ;
+	}
+	#personal img{
+		width: 0.36rem;
+		height: 0.36rem;
+		margin-left: 0.06rem;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}

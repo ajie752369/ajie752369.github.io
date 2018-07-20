@@ -1,0 +1,154 @@
+html,body{
+		width: 100%;
+		height: 100%;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	#box{
+		width: 100%;
+		height: 100%;
+	}
+	#boxTop{
+		width: 100%;
+		height: 40%;
+		background: linear-gradient(to bottom right,#3324ae,#c56cd7);
+	}
+	#topTaskbar{
+		width: 100%;
+		height: 6%;
+		opacity: 0.5;
+	}
+	#backgroundBox{
+		width: 100%;
+		height: 94%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#avatar{
+		width:1.88rem;
+		height: 1.88rem;
+		display: inline-block;
+		background-image: url("../imgs/avatar.png") ;
+		background-size: 100% 100%;
+		border-radius: 100%;
+	}
+	#username{
+		color: white;
+		text-align: center;
+		font-size: 0.28rem;
+		margin-top: 0.16rem;
+	}
+	#content{
+		width: 100%;
+		
+	}
+	#menu{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0.34rem 0.48rem 0 0.48rem;
+		display: flex;
+		justify-content: space-between;
+		/* 字间距 */
+		letter-spacing: 2px;
+	}
+	
+	#personal-uploading{
+		font-size: 0.3rem;
+		background: linear-gradient(to right,#3224ae,#c56cd7);
+		-webkit-background-clip: text;
+		color: transparent;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	#more{
+		font-size: 0.24rem;
+		text-align: right;
+		color: #c56cd7;
+	}
+	#container{
+		width: 100%;
+		margin: 0 auto 0 auto;
+		padding: 0 0.48rem 0 0.48rem;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+
+	}
+	.photo-album{
+		width: 30%;
+		height: 1.94rem;
+		float: left;
+		margin-top: 0.46rem ;
+	}
+	.photo-bg{
+		width: 100%;
+		height: 1.5rem;
+		border-radius: 0.16rem;
+		background-image: url("../imgs/item_bg.png") ;
+		background-size: 100% 100%;
+		display: flex;
+		flex-flow: column-reverse;
+	}
+	.photo-time{
+		width: 100%;
+		border-radius: 0 0 0.16rem 0.16rem;
+		background-color: blue;
+		font-size: 0.2rem;
+		color: white;
+		text-align: center;
+		line-height: 160%;
+		opacity: 0.8;
+		background: linear-gradient(to right,#3224ae,#c56cd7);
+
+	}
+	.photo-name{
+		width: 100%;
+		font-size: 0.28rem;
+		font-weight: 600;
+		text-align: center;
+		margin-top:0.16rem;
+	}
+	#bottom{
+		width: 100%;
+		height: 1.0rem;
+		position: fixed;
+		bottom: 0px;
+		border: 2px solid #f5f5f5;
+		font-size: 0.24rem;
+		background-color: white;
+		display: flex;
+	}
+	#personal-photo{
+		width: 1rem;
+		height: 0.7rem;
+		float: left;
+		margin: 0.18rem 0 0 2.1rem ;
+	}
+	#personal-photo img{
+		width: 0.36rem;
+		height: 0.36rem;
+		margin-left: 0.3rem;
+	}
+	#personal{
+		width: 1rem;
+		height: 0.7rem;
+		margin: 0.18rem 0 0 1.74rem ;
+		color:#c56cd7 ;
+
+	}
+	#personal img{
+		width: 0.36rem;
+		height: 0.36rem;
+		margin-left: 0.06rem;
+
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	

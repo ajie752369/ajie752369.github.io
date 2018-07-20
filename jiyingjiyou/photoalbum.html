@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width,height=device-height,initial-scale=1,user-scalable=no'>
+	<title>相片</title>
+	<link rel="stylesheet" type="text/css" href="./css/photoalbum.css">
+</head>
+<body>
+	<div id="album-top">
+		<span id="goBack">←</span>
+		<span id="album-name">Amy婚礼</span>
+		<span id="photo-num">(320张)</span>
+	</div>
+	<div style="width: 100%;height: 0.04rem;background-color:#ddc5fa "></div>
+	<div id="content">
+		<div class="photo-album">
+			<a href="./photo.html">
+				<div class="photo-bg">
+					<img class="download" src="./imgs/download.png" >
+				</div>
+				<div class="photo-name">2018010622</div>
+			</a>
+		</div>
+	
+	</div>
+	<div id="upload">
+		<a href="./upload.html" class="acolor">
+			+
+		</a>
+	</div>
+</body>
+<script type="text/javascript" src="./js/rootfontsize.js"></script>
+<script type="text/javascript">
+	
+	document.querySelector("#goBack").onclick=function () {
+		console.log(1);
+		history.back();
+	}
+</script>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>上传</title>
+	<style type="text/css">
+		div{
+			width:500px;
+			height: 500px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<input type="file" accept="image/png,image/jpeg" onchange="ImagePreview(this)" style="display: none" id="upload-btn">
+	<button onclick="upload()">点我上传</button>
+	<div>
+	</div>
+</body>
+<script type="text/javascript">
+
+	var upload = function() {
+		document.getElementById('upload-btn').click();
+	}
+	function ImagePreview(fileDom) {
+		//获取文件
+		var file = fileDom.files[0];
+		//创建读取对象
+		var reader = new FileReader();
+		// 读取文件url
+		reader.readAsDataURL(file);
+		// 读取完成后
+		reader.onload = function(e) {
+			// 创建img
+			var img = document.createElement("img");
+			// img路径设置为读取在路径
+			img.src = e.target.result;
+			// 插入img
+			document.querySelector("div").appendChild(img);
+		}
+
+	}
+
+	
+
+</script>
+</html>
+
